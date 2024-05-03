@@ -22,15 +22,21 @@ Then to record voice samples run
 python record.py
 ```
 
-in the window formed in browser save the audio path as "./<name>.mp3" 
+in the window formed in browser save the audio path as "./name.mp3" 
 run 
 ```sh
 python main.py
 ```
-when asked for audio voice give the same <name> used above
+when asked for audio voice give the same name used above
 and give the string you want to convert into audio
 
-The results will be stored in results/ folder
+If you want to use an audio sample without recording put the file_name.mp3 in the folder with main.py and run
+```sh
+python main.py
+```
+
+The results will be stored in results/name (whichever audio file name you chose) folder
+To compare audio before and after denoiser compare the audio file given/made (using record.py) with audio samples in tortoise/voices/audio_name folder
 
 
 
