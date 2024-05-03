@@ -1,4 +1,4 @@
-# asr_hacker_Tortoise_TTS
+# Vocal-Vartalap_Tortoise_TTS
 We use [Tortoise-TTS](https://github.com/neonbjb/tortoise-tts.git) and [denoiser](https://github.com/facebookresearch/denoiser) for  TTS model trained on our voice for hacker assignment
 
 
