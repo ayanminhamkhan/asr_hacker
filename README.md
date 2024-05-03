@@ -36,6 +36,7 @@ python main.py
 ```
 
 The results will be stored in results/name (whichever audio file name you chose) folder
+
 To compare audio before and after denoiser compare the audio file given/made (using record.py) with audio samples in tortoise/voices/audio_name folder
 
 
